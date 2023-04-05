@@ -1,0 +1,170 @@
+{
+  "main-page": {
+    "content": "Strona główna",
+    "description": "Firma oferuje kompleksowe usługi konserwatorskie dowolnych dzieł sztuki"
+  },
+  "nav": {
+    "main-page": "Strona główna",
+    "conservators": "Konserwatorzy",
+    "artworks": "Dzieła sztuki",
+    "artcons": "Zlecenia"
+  },
+  "error": "Błąd",
+
+  "list": {
+    "actions": {
+      "title": "Akcje",
+      "details": "Szczegóły",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "error": "Błąd: ",
+      "loading": "Ładowanie danych..."
+
+    }
+  },
+  "validation": {
+    "messages": {
+      "formErrors": "Form has errors"
+    }
+  },
+  "auth": {
+    "pageTitle": "Logowanie",
+    "password": "Hasło",
+    "logout": "Wyloguj"
+  },
+  "form": {
+    "actions": {
+      "return": "Powrót",
+      "edit": "Edytuj",
+      "cancel": "Anuluj",
+      "add": "Dodaj",
+      "login": "Zaloguj"
+    }
+  },
+  "cons": {
+    "fields": {
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "email": "Email",
+      "date": "Data zatrudnienia"
+    },
+    "list": {
+      "title": "Konserwatorzy",
+      "addNew": "Dodaj nowego konserwatora",
+      "noData": "Brak konserwatorów w bazie",
+      "pageTitle": "Lista konserwatorów"
+    },
+    "form": {
+      "artcons": "Historia zleceń",
+      "add": {
+        "pageTitle": "Dodawanie konserwatora",
+        "btnLabel": "Dodaj konserwatora",
+        "confirm": {
+          "header": "Potwierdzenie operacji",
+          "text": "Pomyślnie dodano konserwatora"
+        }
+      },
+      "edit": {
+        "pageTitle": "Edycja konserwatora",
+        "btnLabel": "Zapisz zmiany",
+        "confirm": {
+          "header": "Potwierdzenie operacji",
+          "text": "Pomyślnie zaktualizowano konserwatora"
+        }
+      }
+    },
+    "details": {
+      "pageTitle": "Szczegóły konserwatora"
+    }
+  },"arts": {
+  "fields": {
+    "title": "Tytuł",
+    "price": "Cena",
+    "type": "Typ",
+    "dimensions": "Wymiary"
+  },
+  "details": {
+    "pageTitle": "Szczegóły dzieła sztuki"
+  },
+  "list": {
+    "title": "Dzieła sztuki",
+    "addNew": "Dodaj nowe dzieło sztuki",
+    "noData": "Brak dzieł sztuki w bazie",
+    "pageTitle": "Lista dzieł sztuki"
+  },
+  "form": {
+    "artcons": "Historia zleceń",
+    "add": {
+      "pageTitle": "Dodawanie dzieła sztuki",
+      "btnLabel": "Dodaj dzieło sztuki",
+      "confirm": {
+        "header": "Potwierdzenie operacji",
+        "text": "Pomyślnie dodano dzieło sztuki"
+      }
+    },
+
+    "edit": {
+      "pageTitle": "Edycja dzieła sztuki",
+      "btnLabel": "Zapisz zmiany",
+      "confirm": {
+        "header": "Potwierdzenie operacji",
+        "text": "Pomyślnie zaktualizowano dzieło sztuki"
+      }
+    }
+  }
+},"artcons": {
+  "fields": {
+    "price": "Wynagrodzenie",
+    "dateFrom": "Data rozpoczęcia",
+    "dateTo": "Data zakończenia",
+    "comment": "Komentarz",
+    "firstAndLast" : "Imię i nazwisko konserwatora"
+  },
+  "details": {
+    "pageTitle": "Szczegóły zlecenia"
+  },
+  "list": {
+    "title": "Zlecenia",
+    "addNew": "Dodaj nowe zlecenie",
+    "noData": "Brak zleceń w bazie",
+    "pageTitle": "Lista zleceń"
+  },
+  "form": {
+    "arts": "Szczegóły dzieła sztuki",
+    "add": {
+      "pageTitle": "Dodawanie zlecenia",
+      "btnLabel": "Dodaj zlecenie",
+      "confirm": {
+        "header": "Potwierdzenie operacji",
+        "text": "Pomyślnie dodano zlecenie"
+      }
+    },
+    "choose": {
+      "chooseConservator": "---Wybierz konserwatora---",
+      "chooseArtwork": "---Wybierz dzieło sztuki---"
+    },
+    "edit": {
+      "pageTitle": "Edycja zlecenia",
+      "btnLabel": "Zapisz zmiany",
+      "confirm": {
+        "header": "Potwierdzenie operacji",
+        "text": "Pomyślnie zaktualizowano zlecenie"
+      }
+    }
+  }
+},
+  "validation": {
+    "messages": {
+      "notEmpty": "Pole jest wymagane",
+      "len_2_60": "Pole powinno zawierać od 2 do 60 znaków",
+      "len_5_60": "Pole powinno zawierać od 5 do 60 znaków",
+      "len_10_150": "Pole powinno zawierać od 10 do 150 znaków",
+      "isNumber": "Pole powinno być liczbą",
+      "isDate": "Pole powinno być datą",
+      "isDimensions": "Wymiary powinny być w formacie AAxAAcm",
+      "isEmail": "Pole powinno zawierać prawidłowy adres email",
+      "formErrors": "Formularz zawiera błędy",
+      "loginError": "Nieprawidłowe dane użytkownika"
+    }
+  }
+}

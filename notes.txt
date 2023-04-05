@@ -1,0 +1,4 @@
+autoryzacjia
+    dla admina z emailem admin@email.pl - opcja dodawania i usuwania konserwatorów
+    dla użytkownika zalogowanego oglądanie szczegółów
+    dla użytkownika niezalogowanego tylko listy, brak dostępnych opcji bez zalogowania

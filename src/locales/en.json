@@ -1,0 +1,172 @@
+{
+  "main-page": {
+    "content": "Main page",
+    "description": "The company offers comprehensive conservation services for any works of art "
+  },
+  "nav": {
+    "main-page": "Main page",
+    "conservators": "Conservators",
+    "artworks": "Artworks",
+    "artcons": "Orders"
+  },
+  "error": "Error",
+
+  "list": {
+    "actions": {
+      "title": "Actions",
+      "details": "Details",
+      "edit": "Edit",
+      "delete": "Delete",
+      "error": "Error: ",
+      "loading": "Loading data..."
+    }
+  },
+  "form": {
+    "actions": {
+      "return": "Return",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "add": "Add",
+      "login": "Login"
+    },
+    "validation": {
+      "messages": {
+        "formErrors": "Form has errors"
+      }
+    }
+  },
+  "auth": {
+    "pageTitle": "Login",
+    "password": "Password",
+    "logout": "Logout"
+  },
+  "cons": {
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "date": "Date of employment"
+    },
+    "details": {
+      "pageTitle": "Conservator details"
+    },
+    "list": {
+      "title": "Conservators",
+      "addNew": "Add new conservator",
+      "noData": "No conservators in database",
+      "pageTitle": "List of conservators"
+    },
+    "form": {
+      "artcons": "History of orders",
+      "add": {
+        "pageTitle": "Adding a new conservator",
+        "btnLabel": "Add the conservator",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new conservator has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing an conservator",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The conservator has been successfully updated"
+        }
+      },
+      "field": {
+        "firstName": "emp.field.firstName"
+      }
+    }
+  },"arts": {
+  "fields": {
+    "title": "Title",
+    "price": "Price",
+    "type": "Type",
+    "dimensions": "Dimensions"
+  },
+  "details": {
+    "pageTitle": "Artwork details"
+  },
+  "list": {
+    "title": "Artworks",
+    "addNew": "Add new artwork",
+    "noData": "No artworks in database",
+    "pageTitle": "List of artworks"
+  },
+  "form": {
+    "artcons": "History of orders",
+    "add": {
+      "pageTitle": "Adding a new artwork",
+      "btnLabel": "Add a new artwork",
+      "confirm": {
+        "header": "Confirmation",
+        "text": "The artwork has been successfully added to database"
+      }
+    },
+    "edit": {
+      "pageTitle": "Editing an artwork",
+      "btnLabel": "Save changes",
+      "confirm": {
+        "header": "Confirmation",
+        "text": "The artwork has been successfully updated"
+      }
+    }
+  }
+},"artcons": {
+  "fields": {
+    "price": "Price",
+    "dateFrom": "Date from",
+    "dateTo": "Date to",
+    "comment": "Comment",
+    "firstAndLast": "Conservator's first and last name"
+  },
+  "details": {
+    "pageTitle": "Order details"
+  },
+  "list": {
+    "title": "Orders",
+    "addNew": "Add new order",
+    "noData": "No orders in database",
+    "pageTitle": "List of orders"
+  },
+  "form": {
+    "arts": "Artwork details",
+    "add": {
+      "pageTitle": "Adding a new order",
+      "btnLabel": "Add a new order",
+      "confirm": {
+        "header": "Confirmation",
+        "text": "The order has been successfully added to database"
+      }
+    },
+    "choose": {
+      "chooseConservator": "---Choose conservator---",
+      "chooseArtwork": "---Choose artwork---"
+    },
+    "edit": {
+      "pageTitle": "Editing an order",
+      "btnLabel": "Save changes",
+      "confirm": {
+        "header": "Confirmation",
+        "text": "The order has been successfully updated"
+      }
+    }
+  }
+},
+  "validation": {
+    "messages": {
+
+      "notEmpty": "The field is required",
+      "len_2_60": "The field should contain from 2 to 60 characters",
+      "len_5_60": "The field should contain from 5 to 60 characters",
+      "len_10_150": "The field should contain from 10 to 150 characters",
+      "isDate": "The field should contain a date",
+      "isNumber": "The field should contain a date",
+      "isDimensions": "Dimensions should be in AAxAAcm format",
+      "isEmail": "The field should contain a valid email address",
+      "formErrors": "The form contains errors",
+      "loginError": "Incorrect user data"
+    }
+  }
+}
